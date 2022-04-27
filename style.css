@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./images/background_image.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p {
+    position: relative;
+    margin: auto;
+    font-family: 'Bowlby One SC', cursive;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 10px;
+}
+
+p {
+    font-size: 1.4rem;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: bolder;
+}
+
+span {
+    color: red;
+}
+
+#container {
+    width: 90%;
+    margin: 2% 4%;
+    background-color: rgba(0,0,0, .4);
+    padding: 2rem 1rem;
+}
+
+#survey-form {
+    position: relative;
+    margin: auto;
+    width: 40%;
+    height: 100%;
+    border: 20px solid black;
+    background-color: black;
+}
+
+.box, .movie-type, .gender,
+.feedback {
+    margin: 3%;
+}
+
+.feedback h4 {
+    margin: 1rem 0.2rem;
+}
+
+.box input {
+    display: block;
+    margin-top: 5px;
+    width: 30vw;
+    height: 8vh;
+    padding: 0.5rem;
+}
+
+.box select {
+    display: block;
+    margin-top: 5px;
+    width: 30vw;
+    height: 9vh;
+    padding-left: 0.5rem;
+}
+
+button {
+    height: 6vh;
+    width: 8vw;
+    font-size: 1.2rem;
+    transform: translate(150%);
+    border: 1px solid red;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+}
+
+button:hover {
+    color: red;
+    background-color: white;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+}
